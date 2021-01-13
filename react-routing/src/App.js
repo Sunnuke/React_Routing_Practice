@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Router>
         <Generic path="/home" />
-        <OtherNumber path="/:input" />
+        <OtherNumber path="/:input/:c1/:c2" />
       </Router>
     </div>
   );
